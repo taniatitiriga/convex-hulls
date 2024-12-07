@@ -19,3 +19,38 @@ This repository contains the following Python scripts:
   - Implements **Andrew's Monotone Chain Algorithm** to compute the convex hull.
   - Prints detailed logs for the step-by-step construction of the **lower hull**.
 
+## Prerequisites
+Ensure you have the following installed:
+- Python 3.7 or later
+- pip (Python package manager)
+
+You can check your Python version using:
+```
+python --version
+```
+
+## Installation
+1. Clone the Repository:
+```
+git clone https://github.com/taniatitiriga/convex-hulls.git
+cd convex-hulls
+```
+2. Set Up a Virtual Environment (Optional but Recommended):
+```
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
+```
+3. Install Required Libraries: Install `matplotlib` for visualization:
+```
+pip install matplotlib
+```
+
+## Usage
+Each script can be executed individually to see its functionality. Below are the details for each:
+1. `convexhull.py`
+  - **Task:** Implement one of the algorithms presented in the last lecture to obtain the same result.
+  - **Run the script** (or you can use your prefered IDE - I use VSCode):
+```
+python convexhull.py
+```
