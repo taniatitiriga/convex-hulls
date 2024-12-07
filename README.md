@@ -54,3 +54,27 @@ Each script can be executed individually to see its functionality. Below are the
 ```
 python convexhull.py
 ```
+2. `lambda_convexhull.py`
+  - **Task:** Implement an algorithm that will indicate the number of points on the border of the convex hull of the set.
+  - **Run the script** (or you can use your prefered IDE - I use VSCode):
+```
+python lambda_convexhull.py
+```
+3. `polygon.py`
+  - **Task:** Given n points in the plane, write an algorithm with complexity O(n log n) to determine a polygon that has all these points as vertices.
+  - **Run the script** (or you can use your prefered IDE - I use VSCode):
+```
+python polygon.py
+```
+4. `jarvismarch.py`
+  - **Task:** Specify the tests to be performed, when Jarvis March algorithm is applied, for determining the successor M of the "leftmost" point and of M's successor.
+  - **Run the script** (or you can use your prefered IDE - I use VSCode):
+```
+python jarvismarch.py
+```
+1. `andrew.py`
+  - **Task:** Detail how the evolution of the vertices during the determination of the lower edge of the border of the convex hull for M is obtained during Andrew's variant of Graham's scan.
+  - **Run the script** (or you can use your prefered IDE - I use VSCode):
+```
+python andrew.py
+```
